@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+
+h1 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.game-img {
+    margin: 20px;
+    border-radius: 15px;
+    width: 25%;
+    position: relative;
+    /* box-shadow: 5px 8px 10px rgba(235, 234, 234, 0.658); */
+}
+
+.home-img {
+    margin: 20px;
+    border-radius: 15px;
+    width: 25%;
+    box-shadow: 5px 8px 10px rgba(235, 234, 234, 0.658);
+}
+
+.home-img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.game-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+}
+
+.demo {
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.btn {
+    font-size: 1.5em;
+    color: rgb(109, 107, 107);
+    font-family: 'Roboto', sans-serif;
+    padding: 16px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: rgb(238, 217, 125);
+    color: rgb(214, 66, 135);
+    font-family: 'Roboto', sans-serif;
+    padding: 16px;
+    border-radius: 15px;
+    
+}
+
+#btn-goToleft, #btn-goToright {
+    width: 80px;
+    margin-bottom: 10vh;
+    margin-left: 8em;
+    margin-right: 8em;
+}
